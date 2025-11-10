@@ -3,10 +3,18 @@ package main
 import "fmt"
 
 func main() {
-	// TODO: Declare and initialize the variables being used in the output!
-	fmt.Printf("Vor- und Nachname: %s %s\n", firstName, lastName)
-	fmt.Printf("Geburtsdatum: %d.%d.%d\n", dayOfBirth, monthOfBirth, yearOfBirth)
-	fmt.Printf("Anzahl Geschwister: %d\n", numberOfSiblings)
-	fmt.Printf("Grösse (in Metern): %.2f\n", heightInMeters)
-	fmt.Printf("Sternzeichen: %c\n", zodiacSign)
+	var firstName string = "Jan"
+	var lastName string = "Lehmann"
+	var dayOfBirth int = 29
+	var monthOfBirth string = "November"
+	var yearOfBirth int = 2008
+	var numberOfSiblings int = 2
+	var heightInMeters float64 = 1.85
+	var zodiacSign string = "Schütze"
+
+	fmt.Printf("Name: %s %s\n", firstName, lastName)
+	fmt.Printf("Geburtsdatum: %d. %s %d\n", dayOfBirth, monthOfBirth, yearOfBirth)
+	fmt.Printf("Geschwister: %d\n", numberOfSiblings)
+	fmt.Printf("Grösse: %.2f m\n", heightInMeters)
+	fmt.Printf("Sternzeichen: %s\n", zodiacSign)
 }
