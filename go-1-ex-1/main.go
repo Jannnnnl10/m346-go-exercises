@@ -18,3 +18,4 @@ func main() {
 	fmt.Printf("Grösse: %.2f m\n", heightInMeters)
 	fmt.Printf("Sternzeichen: %c\n", zodiacSign)
 }
+// go run go-1-ex-1/main.go 
