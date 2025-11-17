@@ -17,8 +17,8 @@ type Profile struct {
 func main() {
 	var me = Profile{
 		// TODO: set name and birth date information
-		NumberOfSiblings: 0,   // TODO: adjust
-		ZodiacSign:       ' ', // TODO: adjust
+		NumberOfSiblings: 2,   // TODO: adjust
+		ZodiacSign:       'Schuetze', // TODO: adjust
 	}
 	fmt.Println(me)
 
