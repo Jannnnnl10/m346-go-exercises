@@ -5,7 +5,6 @@ import (
 )
 
 // TODO: implement the function computeGrade
-
 func computeGrade(gotPoints, maxPoints float64) float64{
 	return 1.0 + (gotPoints/maxPoints)*5.0
 }
